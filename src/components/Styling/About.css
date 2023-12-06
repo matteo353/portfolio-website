@@ -141,6 +141,7 @@
 @media (max-width: 600px) {
   .about-section {
     padding: 10px 30px;
+    height: -webkit-fill-available;
   }
 
   .text-box {
