@@ -6,7 +6,9 @@
     z-index: 1000;
     position:sticky;
     background-color:transparent;
-    width:100%
+    width:100%;
+    padding: 8px 0px;
+    background-color: rgba(38, 69, 80, 0.544)
   }
   
   .nav-list {
@@ -18,11 +20,11 @@
   }
   
   .nav-item {
-    margin: 0 30px;
+    margin: 0 35px;
     text-decoration: none;
-    color: #3c8592e3; /* Adjust the color to fit your background image */
+    color: #65abb7e3; /* Adjust the color to fit your background image */
     font-family: 'EB Garamond', serif; /* Replace with your chosen font */
-    font-size: 1.8em;
+    font-size: 1.6em;
     transition: color 0.3s ease;
     cursor: pointer; 
   }
