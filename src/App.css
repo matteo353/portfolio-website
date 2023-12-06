@@ -12,7 +12,6 @@
   .body-background{
     background-image: url('phone-background.png');
     background-attachment: scroll;
-    height: 90vh;
   }
 }
 
