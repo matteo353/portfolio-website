@@ -4,6 +4,7 @@ import './Styling/Project.css';
 function Project({ name, description, demoLink, codeLink, imageUrl }) {
     return (
       <div className="project-container">
+        <div className='textbox'>
         <div className="project-details">
           <h3 className="project-title">{name}</h3>
           <p className="project-description">{description}</p>
@@ -11,6 +12,7 @@ function Project({ name, description, demoLink, codeLink, imageUrl }) {
         </div>
         <div className="project-image">
           <img src={imageUrl} alt={`${name} project`} />
+        </div>
         </div>
       </div>
     );

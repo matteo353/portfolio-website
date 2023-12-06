@@ -121,18 +121,22 @@
       .project-container {
         /* Adjust the layout for tablet screens */
         flex-direction: column;
-        padding: 15px;
+        padding: 0px 10px;
         width: 80%;
       }
+      .project-details {
+        padding: 0px 0px;
+      }
       .project-title {
-        font-size: 1.8em;
+        font-size: 2em;
       }
       .project-description {
         margin-top: -14px;
         font-size: 15px;
       }
       .project-button{
-        font-size: 15px;
+        font-size: 12px;
+        padding: 6px 15px;
       }
     }
     
