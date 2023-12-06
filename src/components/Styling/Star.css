@@ -225,8 +225,3 @@
     }
 }
 
-@media (max-width: 600px) {
-    .star {
-        display: none;
-    }
-}

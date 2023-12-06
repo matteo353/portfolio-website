@@ -5,10 +5,19 @@ import './Styling/Star.css'
 const getRandomPosition = () => {
 
     const top = Math.random() * 40; // Percentage of the viewport height
-    const left = 20 + Math.random() * 60; // Percentage of the viewport width
+    let left = 20 + Math.random() * 60; // Percentage of the viewport width
+
+    const isMobile = window.innerWidth <= 768; 
+    if (isMobile) {
+    
+      left = Math.random() * 25;
+
+    }
 
     return { top, left };
   };
+
+
 
   
   const Star = () => {
