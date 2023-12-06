@@ -1,0 +1,157 @@
+
+.about-section {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  padding: 110px 80px; /* Adjust padding to fit your content, less padding than 180px */
+  background-color:#d0c0b2;
+  color: white; /* Text color */
+  vertical-align: #b2c2d1;
+  font-family: 'Rajdhani', sans-serif; /* Maintain your font choice */
+}
+
+.text-box {
+  display:flex;
+  background-color: rgb(40, 78, 104);
+  box-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,0.25), 0 0.4em 1.25em 0 rgba(0,0,0,0.15);
+  border-radius: 20px;
+  padding: 30px 90px;
+  width: 75%;
+}
+
+.about-details {
+  flex: 3; /* Equal width */
+  padding: 0px 50px 0 0;
+}
+  
+.about-image {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-image img {
+  object-fit: cover;
+  width:100%;
+  border-radius: 20px;
+}
+
+.about-title {
+  font-family: 'EB Garamond', serif; /* Maintain your font choice */
+  font-size: 4.5em; /* Adjusted for a more balanced proportion */
+  margin: 0; /* Remove margin for title */
+  color: #ffffffd8; /* Title color */
+}
+
+.about-section p {
+  font-size: 1.1em; /* Adjust font size for readability */
+  padding: 0px 50px 0px 0;
+  line-height: 1.6; /* Adjust line spacing for readability */
+  color: #ffffff;
+  font-weight: 500;
+  width: 100%;
+   /* Center the paragraph text */
+}
+
+.resume-button,
+.resume-button *,
+.resume-button :after,
+.resume-button :before,
+.resume-button:after,
+.resume-button:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.resume-button:disabled {
+  cursor: default;
+}
+.resume-button:-moz-focusring {
+  outline: auto;
+}
+.resume-button svg {
+  display: block;
+  vertical-align: middle;
+}
+.resume-button [hidden] {
+  display: none;
+}
+.resume-button {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #ffffff;
+  background-image: none;
+  color: rgb(40, 78, 104);
+  cursor: pointer;
+  font-family: 'EB Garamond', serif;
+  font-size: 100%;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  border-radius: 999px;
+  box-sizing: border-box;
+  display: block;
+  font-weight: 900;
+  -webkit-mask-image: none;
+  padding: 1rem 2.5rem;
+  position: relative;
+  text-transform: uppercase;
+  padding-top: -10px;
+}
+.resume-button:before {
+  --thickness: 4px;
+  border: var(--thickness) solid #fff;
+  border-radius: 999px;
+  content: "";
+  inset: calc(var(--thickness) * -1);
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  transform: scale(1.3);
+  transition: transform 0.2s, opacity 0.2s;
+}
+.resume-button:hover:before {
+  opacity: 1;
+  transform: scale(1);
+}
+.resume-button:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.social-icons {
+  display: flex;
+  gap: 50px; /* Spacing between icons */
+  margin-top: 20px; /* Spacing between the button and icons */
+}
+
+.social-icons a {
+  color: #fff; /* Replace with your desired icon color */
+  font-size: 50px; /* Icon size */
+}
+
+.social-icons a:hover {
+  color: #6aa8cf; /* Replace with your desired hover color */
+}
+
+@media (max-width: 1140px) {
+  .about-image {
+    display: none;
+  }
+}
+
+@media (max-width: 780px) {
+  .text-box {
+    width: 90%;
+  }
+
+  .social-icons a {
+    color: #fff; /* Replace with your desired icon color */
+    font-size: 30px; /* Icon size */
+  }
+
+  .resume-button {
+    font-size: 12px;
+    padding: 0px 15px;;
+  }
+
+}

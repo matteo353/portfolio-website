@@ -1,0 +1,82 @@
+
+
+.skills-title {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-family: 'EB Garamond', serif; /* Maintain your font choice */
+  font-size: 4em; /* Adjusted for a more balanced proportion */
+  color: #ffffffd8; /* Title color rgba(49,68,79)*/
+  text-align: center; /* Center the title text */
+
+}
+
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(40, 78, 104);
+  padding-top: 90px;
+  padding-bottom: 70px;
+  width: 100%;
+}
+
+.skills-box {
+  width: 80%; /* Make sure the container takes the full width */
+  display: flex; /* This ensures the title and list are in column */
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills-list {
+  display: flex; /* This is for the horizontal alignment of skill items */
+  flex-wrap: wrap; /* This allows items to wrap into new rows */
+  gap: 5px;
+  justify-content: center;
+  width: 100%;
+}
+
+.skill-name {
+  font-size: 18px;
+}
+
+.skill-item {
+  background-color: #d0c0b2;
+  color:black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 145px; /* Adjust as needed */
+  height: 85px; /* Adjust as needed */
+  margin: 15px;
+  border-radius: 12px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  font-size: 45px;
+  font-weight: 1000;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.skill-item:hover {
+  transform: translateY(-9px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  background-color: #6aa8cf;
+  color: white;
+}
+
+/* Responsive design - adjust the breakpoint as necessary */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-section,
+  .skills-section {
+    flex-basis: 90%;
+    margin-bottom: 20px;
+  }
+}
+
+

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+
+.navbar {
+    text-align: center;
+    padding: .5em 0;
+    z-index: 1000;
+    position:sticky;
+    background-color:transparent;
+    width:100%
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-item {
+    margin: 0 30px;
+    text-decoration: none;
+    color: #4b97a4; /* Adjust the color to fit your background image */
+    font-family: 'EB Garamond', serif; /* Replace with your chosen font */
+    font-size: 1.8em;
+    transition: color 0.3s ease;
+    cursor: pointer; 
+  }
+  
+
+  
+  .nav-item:hover {
+    color: #d0c0b2; /* A highlight color when hovering */
+  }
+
+  @media (max-width: 700px) {
+    .navbar {
+      display: none;
+    }
+
+  }

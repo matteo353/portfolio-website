@@ -1,0 +1,137 @@
+.project-container {
+    display: flex;
+    /* border: 7px rgb(170, 177, 193); /* For border */
+    /* border-style: outset; */
+    margin-bottom: 30px;   /* Spacing between projects */
+    border-radius: 20px;
+    color: #040d44;
+    width: 75%;
+    align-items: center; /* Center items horizontally */
+    background-color: #d0c0b2;
+    font-family: 'Rajdhani', sans-serif; /* Maintain your font choice */
+  }
+
+  .project-title {
+    margin-top: 0px;
+    color: rgba(23, 55, 77, 0.911);
+    font-size: 2.4em;
+    font-family: 'EB Garamond', serif;
+  }
+
+  .project-description {
+    margin-top: -30px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+  }
+  
+  .project-details {
+    flex: 3; /* Takes up 75% of the space */
+    padding: 25px; /* Padding for content */
+    margin: 10px;
+}
+
+
+  .project-image {
+    flex: 2; /* Takes up 25% of the space */
+    padding: 10px; /* Padding for content */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project-image img {
+    width:70%;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 0px;
+  }
+  
+  .project-button,
+.project-button *,
+.project-button :after,
+.project-button :before,
+.project-button:after,
+.project-button:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.project-button:disabled {
+  cursor: default;
+}
+.project-button:-moz-focusring {
+  outline: auto;
+}
+.project-button svg {
+  display: block;
+  vertical-align: middle;
+}
+.project-button [hidden] {
+  display: none;
+}
+.project-button {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: rgb(40, 78, 104);
+  background-image: none;
+  color: #d0c0b2;
+  cursor: pointer;
+  font-family: 'EB Garamond', serif;
+  font-size: 100%;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  border-radius: 999px;
+  box-sizing: border-box;
+  display: block;
+  font-weight: 900;
+  -webkit-mask-image: none;
+  padding: 1rem 2.5rem;
+  position: relative;
+  text-transform: uppercase;
+  padding-top: -10px;
+  width: 90%
+}
+.project-button:before {
+  --thickness: 4px;
+  border: var(--thickness) solid rgb(40, 78, 104);
+  border-radius: 999px;
+  content: "";
+  inset: calc(var(--thickness) * -1);
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  transform: scale(1.3);
+  transition: transform 0.2s, opacity 0.2s;
+}
+.project-button:hover:before {
+  opacity: 1;
+  transform: scale(1);
+}
+.project-button:hover {
+  background-color: transparent;
+  color: rgb(40, 78, 104);
+}
+
+
+  @media (max-width: 1000px) {
+    .project-image {
+      display: none;
+    }
+  }
+
+    @media (max-width: 768px) {
+      .project-container {
+        /* Adjust the layout for tablet screens */
+        flex-direction: column;
+        padding: 15px;
+        width: 90%;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .project-container {
+        /* Adjust the layout for mobile screens */
+        padding: 10px;
+        margin-bottom: 20px;
+        max-height: none; /* Allow containers to grow as tall as their content */
+      }
+    }

@@ -1,0 +1,40 @@
+body {
+    background: #d0c0b2;
+    font-family: "Monstserrat", sans-serif;
+    font-size: 16px;
+}
+
+.title {
+    font-size: 4em;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+h3 {
+    padding-top: .25em;
+
+}
+
+.vertical-timeline-element-content {
+    box-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,0.25), 0 0.4em 1.25em 0 rgba(0,0,0,0.15) !important;
+    padding: 2em 3em !important;
+    background-color: rgb(40, 78, 104);
+    color: white;
+}
+
+.date {
+    color: rgb(0, 0, 0);
+}
+
+#description {
+    margin: 1.2em 0 1em 0;
+    font-size: 15.5px;
+}
+
+@media (max-width: 1170px) {
+    .date {
+        color: rgb(247, 247, 247);
+    }
+  }
+
+  

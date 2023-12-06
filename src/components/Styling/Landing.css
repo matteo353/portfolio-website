@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Nanum+Brush+Script&display=swap');
+
+
+
+  .landing-container {
+    text-align: center;
+    position: relative;
+    padding: 100px 20px;
+    color: #3c8592; /* Font color */
+    font-size: 1em;
+  }
+
+  .landing-title {
+    /*font-family: 'Rajdhani', sans-serif;*/
+    font-family: 'EB Garamond', serif;
+    /*font-family: 'Nanum Brush Script', cursive;*/
+    font-size: 5em;
+    margin-bottom: 0.3em;
+    margin-top: -.5em;
+    text-shadow: 1px 2px #d7dadbab
+  }
+
+
+
+  
+  
+  /* CSS */
+  .know-me-button {
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid #3c8592;
+    box-sizing: border-box;
+    color: #60acb9;
+    cursor: pointer;
+    display: inline-flex;
+    fill: #3c8592;;
+    font-family: 'EB Garamond', serif;
+    font-size: 19px;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+
+  
+  .know-me-button:hover {
+    border-color: #d0c0b2;;
+    color: #d0c0b2;;
+    fill: #d0c0b2;;
+  }
+
+  
+
+  @media (max-width: 600px) {
+    .landing-title {
+      font-size: 3.5em;
+    }
+  }

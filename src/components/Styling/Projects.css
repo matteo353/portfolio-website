@@ -1,0 +1,21 @@
+.projects-section {
+    display: flex;
+    flex-direction: column; /* Aligns children in a column */
+    align-items: center; /* Centers children horizontally in the container */
+    justify-content: center; /* Optional: Centers the column vertically in the container */
+    background-color: rgb(40, 78, 104);
+    max-height: None;
+    margin-bottom: -70px;
+  }
+  
+
+
+.projects-title {
+    display: flex;
+    margin-bottom: 20px;
+    font-family: 'EB Garamond', serif; /* Maintain your font choice */
+    font-size: 5em; /* Adjusted for a more balanced proportion */
+    color: #ffffffd8; /* Title color */
+    text-align: center; /* Center the title text */
+    text-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,0.25), 0 0.4em 1.25em 0 rgba(0,0,0,0.15)
+}
