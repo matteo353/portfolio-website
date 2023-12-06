@@ -15,13 +15,12 @@
   background-color: rgb(40, 78, 104);
   box-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,0.25), 0 0.4em 1.25em 0 rgba(0,0,0,0.15);
   border-radius: 20px;
-  padding: 30px 90px;
+  padding: 30px 80px;
   width: 75%;
 }
 
 .about-details {
   flex: 3; /* Equal width */
-  padding: 0px 50px 0 0;
 }
   
 .about-image {
@@ -46,11 +45,11 @@
 
 .about-section p {
   font-size: 1.1em; /* Adjust font size for readability */
-  padding: 0px 50px 0px 0;
+  padding: 0px 0px 0px 0;
   line-height: 1.6; /* Adjust line spacing for readability */
   color: #ffffff;
   font-weight: 500;
-  width: 100%;
+  width: 80%;
    /* Center the paragraph text */
 }
 
@@ -141,11 +140,13 @@
 
 @media (max-width: 600px) {
   .about-section {
-    padding: 40px 80px;
+    padding: 10px 30px;
   }
+
   .text-box {
-    width: 80%;
+    width: 100%;
     margin: 0;
+    padding: 10px 20px;
   }
 
   .about-title {
@@ -163,8 +164,8 @@
 
   .social-icons a {
     color: #fff; /* Replace with your desired icon color */
-    font-size: 30px; /* Icon size */
-    margin-top: 4px;
+    font-size: 20px; /* Icon size */
+    margin-top: 2px;
   }
 
   .resume-button {
