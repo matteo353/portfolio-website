@@ -11,7 +11,7 @@
 @media (max-width: 600px) {
   .body-background{
     background-image: url('phone-background.png');
-    background-attachment: cover;
+    background-attachment: scroll;
   }
 }
 
