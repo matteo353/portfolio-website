@@ -35,7 +35,15 @@
 
   @media (max-width: 600px) {
     .navbar {
-      display: none;
+      font-size: 12px;
+      padding: 5px 0px;
+      background-color: rgba(31, 56, 65, 0.757)
+    }
+
+    .nav-item {
+      font-size: 12px;
+      margin: 0 8px;
+      color: #579face3;
     }
 
   }
