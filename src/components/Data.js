@@ -39,7 +39,7 @@ export const timelineElements = [
     {
         id:2,
         title: "Business Intelligence Engineer Intern",
-        description: "Split my time between a business intelligence engineer intern and an IT intern. Helped manage and optimize an onsite SQL database along with aiding in the process of company wide migration to AWS Redshift. Built tableau dashboards visualizing current performance metrics and projecting future trends.",
+        description: "Split time between a business intelligence engineer intern and an IT intern. Helped manage and optimize an onsite SQL database along with aiding in the process of company wide migration to AWS Redshift. Built tableau dashboards visualizing current performance metrics and projecting future trends.",
         date: "July 2022 - August 2022",
         location: "Pet Food Experts",
         buttonText: "view work",
