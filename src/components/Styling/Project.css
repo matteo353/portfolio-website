@@ -117,20 +117,22 @@
     }
   }
 
-    @media (max-width: 768px) {
+    @media (max-width: 700px) {
       .project-container {
         /* Adjust the layout for tablet screens */
         flex-direction: column;
         padding: 15px;
-        width: 90%;
+        width: 80%;
+      }
+      .project-title {
+        font-size: 1.8em;
+      }
+      .project-description {
+        margin-top: -14px;
+        font-size: 15px;
+      }
+      .project-button{
+        font-size: 15px;
       }
     }
     
-    @media (max-width: 480px) {
-      .project-container {
-        /* Adjust the layout for mobile screens */
-        padding: 10px;
-        margin-bottom: 20px;
-        max-height: none; /* Allow containers to grow as tall as their content */
-      }
-    }

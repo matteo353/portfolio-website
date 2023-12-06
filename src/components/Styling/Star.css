@@ -224,3 +224,9 @@
         transform: translateX(270px);
     }
 }
+
+@media (max-width: 600px) {
+    .star {
+        display: none;
+    }
+}

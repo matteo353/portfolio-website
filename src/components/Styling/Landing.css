@@ -89,6 +89,10 @@
 
   @media (max-width: 600px) {
     .landing-title {
+      padding-top: 100px;
       font-size: 3.5em;
+    }
+    .know-me-button {
+      font-size: 12px;
     }
   }

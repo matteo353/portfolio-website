@@ -72,6 +72,20 @@
     align-items: center;
   }
 
+  .skill-item {
+    font-size: 35px;
+    width: 120px; /* Adjust as needed */
+    height: 65px;
+  }
+
+  .skill-name {
+    font-size: 18px;
+  }
+
+  .skills-title {
+    font-size: 3em;
+  }
+
   .about-section,
   .skills-section {
     flex-basis: 90%;

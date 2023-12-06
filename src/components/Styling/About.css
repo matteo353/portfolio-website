@@ -139,19 +139,38 @@
   }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 600px) {
+  .about-section {
+    padding: 40px 80px;
+  }
   .text-box {
-    width: 90%;
+    width: 80%;
+    margin: 0;
+  }
+
+  .about-title {
+    font-size: 3em;
+  }
+
+  .about-section p {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .social-icons {
+    gap: 30px;
   }
 
   .social-icons a {
     color: #fff; /* Replace with your desired icon color */
     font-size: 30px; /* Icon size */
+    margin-top: 4px;
   }
 
   .resume-button {
     font-size: 12px;
-    padding: 15px 15px;;
+    padding: 4px 15px;
+
   }
 
 }
