@@ -1,7 +1,7 @@
 body {
     background: #d0c0b2;
-    font-family: "Monstserrat", sans-serif;
-    font-size: 16px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
 }
 
 .title {
@@ -12,6 +12,7 @@ body {
 
 h3 {
     padding-top: .25em;
+    color: white;
 
 }
 
@@ -20,6 +21,7 @@ h3 {
     padding: 2em 3em !important;
     background-color: rgb(40, 78, 104);
     color: white;
+    font-size: 20px;
 }
 
 .date {
@@ -28,7 +30,7 @@ h3 {
 
 #description {
     margin: 1.2em 0 1em 0;
-    font-size: 15.5px;
+    font-size: 16.5px;
 }
 
 @media (max-width: 1170px) {

@@ -1,6 +1,6 @@
 .star {
     position: absolute;
-    left: 50%;
+    left: 40%;
     top: 50%;
     height: 2px;
     border-radius: 885px;
@@ -45,7 +45,7 @@
      and every balls(stars) */
 .star:nth-child(1) {
     top: calc(50% - -119px);
-    left: calc(50% - 43px);
+    left: calc(50% - 65px);
     -webkit-animation-delay: 4000ms;
     animation-delay: 4000ms;
 }

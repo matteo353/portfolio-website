@@ -3,7 +3,7 @@
   display: flex; /* Use flexbox for layout */
   align-items: center; /* Center items horizontally */
   justify-content: center; /* Center items vertically */
-  padding: 110px 80px; /* Adjust padding to fit your content, less padding than 180px */
+  padding: 140px 80px; /* Adjust padding to fit your content, less padding than 180px */
   background-color:#d0c0b2;
   color: white; /* Text color */
   vertical-align: #b2c2d1;
@@ -151,7 +151,7 @@
 
   .resume-button {
     font-size: 12px;
-    padding: 0px 15px;;
+    padding: 15px 15px;;
   }
 
 }
