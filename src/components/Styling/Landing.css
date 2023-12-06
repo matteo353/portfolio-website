@@ -88,6 +88,9 @@
   
 
   @media (max-width: 600px) {
+    .landing-container {
+      padding-top: 20px;
+    }
     .landing-title {
       padding-top: 50px;
       font-size: 3.5em;
