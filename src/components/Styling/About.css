@@ -122,7 +122,7 @@
 
 .social-icons {
   display: flex;
-  gap: 30px; /* Spacing between icons */
+  gap: 50px; /* Spacing between icons */
   margin-top: 20px; /* Spacing between the button and icons */
 }
 

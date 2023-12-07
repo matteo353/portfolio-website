@@ -13,7 +13,7 @@ export const projects = [
     },
     {
         name: "Nines",
-        description: "Nines: A Tailored iOS Scoring App for Golf - Nines is an iOS application, crafted using Swift, specifically designed to assist myself and my friends in tracking scores for our preferred variation of golf, aptly named 'Nines.' The app is centered around the unique scoring rules of the game, ensuring accuracy and ease of use during gameplay. Additionally, it features a traditional golf scorecard, catering to conventional golf games as well. Developed during my free time, Nines is a bespoke solution that allows us to fully engage in our golf games, entrusting the scoring responsibilities to our iPhones. It may never have a user base larger than 3, but that's quite alright with us.",
+        description: "Nines: A Tailored iOS Scoring App for Golf - Nines is an iOS application, crafted using Swift, specifically designed to assist myself and my friends in tracking scores for our preferred variation of golf, aptly named 'Nines.' The app is centered around the unique scoring rules of the game, ensuring accuracy and ease of use during gameplay. Additionally, it features a traditional golf scorecard, catering to conventional golf games as well. Nines is a bespoke solution that allows us to fully engage in our golf games, entrusting the scoring responsibilities to our iPhones. It may never have a user base larger than 3, but that's quite alright with us.",
         demoLink: "http://demo1.com",
         codeLink: "https://github.com/matteo353/Nines-App",
         imageUrl: ninesLogo
