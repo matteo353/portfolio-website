@@ -3,7 +3,7 @@
   display: flex; /* Use flexbox for layout */
   align-items: center; /* Center items horizontally */
   justify-content: center; /* Center items vertically */
-  padding: 135px 80px; /* Adjust padding to fit your content, less padding than 180px */
+  padding: 125px 80px; /* Adjust padding to fit your content, less padding than 180px */
   background-color:#d0c0b2;
   color: white; /* Text color */
   font-family: 'Rajdhani', sans-serif; /* Maintain your font choice */
@@ -16,7 +16,7 @@
   background-color: rgb(40, 78, 104);
   box-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,0.25), 0 0.4em 1.25em 0 rgba(0,0,0,0.15);
   border-radius: 20px;
-  padding: 30px 80px;
+  padding: 80px 80px;
   width: 80%;
 }
 
