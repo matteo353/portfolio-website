@@ -6,7 +6,7 @@ import etLogo from '../images/Eat-this.png'
 export const projects = [
     {
       name: "Reel Radar",
-      description: "Reel Radar: A Django Web App for Personalized Movie Recommendations. I have always found myself giving my friends movie recommendations, so I figured why not automate the task. Reel Radar offers a simple yet effective way to discover movies. Powered by Django, it uses an algorithm based on a cosine similarity matrix, drawing from a diverse database of 30,000 movies. Users can input their favorite films, and Reel Radar provides the top 5 recommendations that closely match in terms of director and genre. It's a straightforward, user-friendly tool for anyone looking to explore movies that align with their taste.",
+      description: "Reel Radar: A Django Web App for Personalized Movie Recommendations. Because of my love of film my friends are always asking me for movie recommendations, so I figured why not automate the task. Reel Radar offers a simple yet effective way to discover movies. Powered by Django, it uses an algorithm based on a cosine similarity matrix, drawing from a diverse database of 30,000 movies. Users can input their favorite films, and Reel Radar provides the top 5 recommendations that closely match in terms of director and genre. It's a straightforward, user-friendly tool for anyone looking to explore movies that align with their taste.",
       demoLink: "http://demo1.com",
       codeLink: "https://github.com/matteo353/Reel-Radar",
       imageUrl: rrLogo
