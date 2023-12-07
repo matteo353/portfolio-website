@@ -3,12 +3,12 @@
   display: flex; /* Use flexbox for layout */
   align-items: center; /* Center items horizontally */
   justify-content: center; /* Center items vertically */
-  padding: 100px 80px; /* Adjust padding to fit your content, less padding than 180px */
+  padding: 135px 80px; /* Adjust padding to fit your content, less padding than 180px */
   background-color:#d0c0b2;
   color: white; /* Text color */
-  vertical-align: #b2c2d1;
   font-family: 'Rajdhani', sans-serif; /* Maintain your font choice */
   height: fit-content;
+  flex: 1;
 }
 
 .text-box {
@@ -17,7 +17,7 @@
   box-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,0.25), 0 0.4em 1.25em 0 rgba(0,0,0,0.15);
   border-radius: 20px;
   padding: 30px 80px;
-  width: 75%;
+  width: 80%;
 }
 
 .about-details {
@@ -34,6 +34,8 @@
 .about-image img {
   object-fit: cover;
   width:100%;
+  min-width: 80%;
+  height: 90%;
   border-radius: 20px;
 }
 
@@ -50,7 +52,7 @@
   line-height: 1.6; /* Adjust line spacing for readability */
   color: #ffffff;
   font-weight: 500;
-  width: 80%;
+  width: 90%;
    /* Center the paragraph text */
 }
 

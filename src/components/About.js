@@ -1,7 +1,7 @@
 import React from 'react'
 import './Styling/About.css';
 import { FaLinkedin, FaGithub, FaPaperPlane } from 'react-icons/fa';
-import about_img from '../images/about-img3.png'
+import about_img from '../images/about-img6.jpg'
 
 function About() {
   const resumeUrl = "https://drive.google.com/file/d/1ySKFYyeiMikuqCKIgd59ibW0UkMeLDb3/view?usp=sharing";
