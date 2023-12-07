@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub, FaPaperPlane } from 'react-icons/fa';
 import about_img from '../images/about-img6.jpg'
 
 function About() {
-  const resumeUrl = "https://drive.google.com/file/d/1ySKFYyeiMikuqCKIgd59ibW0UkMeLDb3/view?usp=sharing";
+  const resumeUrl = "https://drive.google.com/file/d/1OrTAV8-AYGiDks588jT4v3ZHP32IsFZ-/view?usp=sharing";
 
 
   const viewResume = () => {
