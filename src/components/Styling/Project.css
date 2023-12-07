@@ -9,6 +9,7 @@
     align-items: center; /* Center items horizontally */
     background-color: #d0c0b2;
     font-family: 'Rajdhani', sans-serif; /* Maintain your font choice */
+    box-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,0.25), 0 0.4em 1.25em 0 rgba(0,0,0,0.15);
   }
 
   .project-title {
@@ -44,6 +45,7 @@
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 0px;
+    box-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,0.25), 0 0.4em 1.25em 0 rgba(0,0,0,0.15);
   }
   
   .project-button,

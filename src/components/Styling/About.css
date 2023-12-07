@@ -8,6 +8,7 @@
   color: white; /* Text color */
   vertical-align: #b2c2d1;
   font-family: 'Rajdhani', sans-serif; /* Maintain your font choice */
+  height: fit-content;
 }
 
 .text-box {
@@ -119,7 +120,7 @@
 
 .social-icons {
   display: flex;
-  gap: 50px; /* Spacing between icons */
+  gap: 30px; /* Spacing between icons */
   margin-top: 20px; /* Spacing between the button and icons */
 }
 
