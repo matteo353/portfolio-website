@@ -1,6 +1,6 @@
 import React from 'react'
 import './Styling/Skills.css'
-import { DiPython, DiJavascript1, DiDjango, DiReact, DiCss3, DiHtml5, DiAws, DiGit, DiDatabase } from 'react-icons/di';
+import { DiPython, DiDocker, DiJavascript1, DiDjango, DiReact, DiCss3, DiHtml5, DiAws, DiGit, DiDatabase } from 'react-icons/di';
 
 function Skills() {
 
@@ -13,6 +13,7 @@ function Skills() {
       { icon: DiCss3, name: 'CSS3' },
       { icon: DiHtml5, name: 'HTML5' },
       { icon: DiAws, name: 'AWS' },
+      { icon: DiDocker, name: 'Docker' },
       { icon: DiDjango, name: '' }
     ];
   

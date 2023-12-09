@@ -3,11 +3,11 @@
   display: flex; /* Use flexbox for layout */
   align-items: center; /* Center items horizontally */
   justify-content: center; /* Center items vertically */
-  padding: 125px 80px; /* Adjust padding to fit your content, less padding than 180px */
+  padding: 0px 80px; /* Adjust padding to fit your content, less padding than 180px */
   background-color:#d0c0b2;
   color: white; /* Text color */
   font-family: 'Rajdhani', sans-serif; /* Maintain your font choice */
-  height: fit-content;
+  height: 100vh;
   flex: 1;
 }
 
