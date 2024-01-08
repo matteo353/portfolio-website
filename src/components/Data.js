@@ -48,7 +48,7 @@ export const timelineElements = [
     {
         id:2,
         title: "Business Intelligence Engineer Intern",
-        description: "Split time between a business intelligence engineer intern and an IT intern. Helped manage and optimize an onsite SQL database along with aiding in the process of company wide migration to AWS Redshift. Built tableau dashboards visualizing current performance metrics and projecting future trends.",
+        description: "Split time between the business intelligence team and the database team. With the business intelligence team, built tableau dashboards visualizing current performance metrics and projecting future trends. While working with the database team, helped manage and optimize an onsite SQL database, update ETL processes, along with aiding in the process of company wide migration to AWS Redshift.",
         date: "July 2022 - August 2022",
         location: "Pet Food Experts",
         buttonText: "view work",
@@ -57,8 +57,8 @@ export const timelineElements = [
     {
         id:3,
         title: "Undergraduate Research Assistant",
-        description: "Worked in the Laboratory for the Advancement of Software Engineering Research (LASER). Facilitated research by supplying PhD students with pertinent articles and information related to their research topics. Helped to draft and refine project guidelines and conditions.",
-        date: "July 2022 - August 2022",
+        description: "Assisted research team in examining how data visualization impacts the assimilation of information across different mediums. Supported PhD students with pertinent articles and information related to the topic of visual design affects and perceived bias in machine learning models. Explored the efficacy of design layouts and visual elements in enhancing user comprehension of complex data.",
+        date: "September 2022 - April 2023",
         location: "UMass Amherst",
         buttonText: "view work",
         icon: "school"
@@ -66,8 +66,8 @@ export const timelineElements = [
     {
         id:4,
         title: "Industry Research and Data Analytics Intern",
-        description: "Took part in a remote internship during my spring semester. Conducted in depth research on green energy firms leveraging artificial intelligence to achieve their operational objectives. Crafted interactive data visualizations using plotly to supplment presentations on the leading start ups in this sector. Placed top 3 in final presentations among all interns",
-        date: "July 2022 - August 2022",
+        description: "Took part in a remote internship during my spring semester. Conducted in depth research on green energy firms leveraging artificial intelligence to achieve their operational objectives. Crafted interactive data visualizations using plotly to supplement presentations on the leading start ups in this sector. Placed top 3 in final presentations among all interns",
+        date: "February 2023 - May 2023",
         buttonText: "view work",
         location: 'Energy Innovation Capital',
         icon: "work"
