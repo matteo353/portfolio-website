@@ -2,7 +2,7 @@ import React , {useState } from 'react'
 import './Styling/Navbar.css'
 
 function Navbar({scrollToAbout, scrollToProjects, scrollToSkills, scrollToWork}) {
-  const resumeUrl = "https://drive.google.com/file/d/1ySKFYyeiMikuqCKIgd59ibW0UkMeLDb3/view?usp=sharing";
+  const resumeUrl = "https://drive.google.com/file/d/1AKj5nyh6qTDXx-azZLsYw4bjkDBkURlr/view?usp=sharing";
   const [isActive, setIsActive] = useState(false);
 
 
