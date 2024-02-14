@@ -7,7 +7,7 @@ import heartLogo from '../images/heart_img.png'
 export const projects = [
     {
         name: "Heart Failure Predictive Modeling",
-        description: "Executed data preprocessing and exploratory analysis on a heart disease-related dataset, extracting insights to enhance comprehension and optimize data scaling techniques. Selected key features for model building using ANOVA and Chi-Squared tests, and scaled data for modeling depending on the requirements of the model and distribution of the features. Implemented diverse machine learning algorithms for heart disease prediction (Logistic Regression, KNN, SVM, NBC, Neural Network, Decision Tree, Random Forest), rigorously evaluating each using key metrics, confusion matrices, and AUC-ROC graphs to accurately gauge each model’s effectiveness.",
+        description: "Performed data preprocessing and exploratory analysis on a heart disease-related dataset, extracting insights to enhance comprehension and optimize data scaling techniques. Selected key features for model building using ANOVA and Chi-Squared tests, and scaled data for modeling depending on the requirements of the model and distribution of the features. Implemented a diverse set of machine learning algorithms for heart disease prediction (Logistic Regression, KNN, SVM, NBC, Neural Network, Decision Tree, Random Forest), rigorously evaluating each using key metrics, confusion matrices, and AUC-ROC graphs to accurately gauge each model’s effectiveness.",
         demoLink: "http://demo1.com",
         codeLink: "https://www.kaggle.com/code/matteomastandrea/heart-failure-classification",
         imageUrl: heartLogo
@@ -48,7 +48,7 @@ export const timelineElements = [
     {
         id:2,
         title: "Business Intelligence Engineer Intern",
-        description: "Split time between the business intelligence team and the database team. With the business intelligence team, built tableau dashboards visualizing current performance metrics and projecting future trends. While working with the database team, helped manage and optimize an onsite SQL database, update ETL processes, along with aiding in the process of company wide migration to AWS Redshift.",
+        description: "Split time between the business intelligence team and the database team. With the business intelligence team: segmented customer data with Python and built Tableau dashboards visualizing current performance metrics and projecting future trends. While working with the database team, helped manage and optimize an onsite SQL database, update ETL processes, along with aiding in the process of company wide migration to AWS Redshift.",
         date: "July 2022 - August 2022",
         location: "Pet Food Experts",
         buttonText: "view work",
