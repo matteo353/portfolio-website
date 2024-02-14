@@ -66,7 +66,7 @@ export const timelineElements = [
     {
         id:4,
         title: "Industry Research and Data Analytics Intern",
-        description: "Took part in a remote internship during my spring semester. Conducted in depth research on green energy firms leveraging artificial intelligence to achieve their operational objectives. Crafted interactive data visualizations using plotly to supplement presentations on the leading start ups in this sector. Placed top 3 in final presentations among all interns",
+        description: "Took part in a remote internship during my spring semester. Conducted in depth research and analytics on small green energy firms. Analyzed company data in excel and crafted data visualizations using PowerBI to supplement presentations on the leading start-ups in this sector. Placed top 3 in final presentations among all interns",
         date: "February 2023 - May 2023",
         buttonText: "view work",
         location: 'Energy Innovation Capital',
