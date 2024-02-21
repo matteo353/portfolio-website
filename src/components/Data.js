@@ -2,33 +2,41 @@ import ninesLogo from '../images/Nines-logo.png'
 import rrLogo from '../images/RR5.png'
 import etLogo from '../images/Eat-this.png'
 import heartLogo from '../images/heart_img.png'
+import timeSeries from '../images/time_series.jpeg'
 
 
 export const projects = [
     {
+      name: "Time Series Forecasting on Energy Consumption Data",
+      description: "Explored the data with visualizations showing breakdowns of consumption over different time periods. Created features to increase model performance and split the data into train/test sets to prepare it for modeling. Trained and tested two leading forecasting models: XGBoost and Facebook's Prophet model to forecast energy consumption.",
+      demoLink: "http://demo1.com",
+      codeLink: "https://www.kaggle.com/code/matteomastandrea/time-series-forecasting",
+      imageUrl: timeSeries
+    },
+    {
         name: "Heart Failure Predictive Modeling",
-        description: "Performed data preprocessing and exploratory analysis on a heart disease-related dataset, extracting insights to enhance comprehension and optimize data scaling techniques. Selected key features for model building using ANOVA and Chi-Squared tests, and scaled data for modeling depending on the requirements of the model and distribution of the features. Implemented a diverse set of machine learning algorithms for heart disease prediction (Logistic Regression, KNN, SVM, NBC, Neural Network, Decision Tree, Random Forest), rigorously evaluating each using key metrics, confusion matrices, and AUC-ROC graphs to accurately gauge each model’s effectiveness.",
+        description: "Preprocessed and explored a heart disease-related dataset, extracting insights to optimize data scaling techniques. Selected key features for model building using ANOVA and Chi-Squared. Scaled data for modeling depending on the requirements of the model and distribution of the features. Trained and tested machine learning models including: Logistic Regression, KNN, SVM, NBC, Neural Network, Decision Tree, Random Forest.",
         demoLink: "http://demo1.com",
         codeLink: "https://www.kaggle.com/code/matteomastandrea/heart-failure-classification",
         imageUrl: heartLogo
       },
     {
       name: "Reel Radar",
-      description: "Reel Radar: A Django Web App for Personalized Movie Recommendations. Because of my love of film my friends are always asking me for movie recommendations, so I figured why not automate the task. Reel Radar offers a simple yet effective way to discover movies. Powered by Django, it uses an algorithm based on a cosine similarity matrix, drawing from a diverse database of 30,000 movies. Users can input their favorite films, and Reel Radar provides the top 5 recommendations that closely match in terms of director and genre. It's a straightforward, user-friendly tool for anyone looking to explore movies that align with their taste.",
+      description: "A Django Web App for Personalized Movie Recommendations. Reel Radar offers a simple yet effective way to discover movies. Powered by Django, it uses an algorithm based on a cosine similarity matrix, drawing from a diverse database of 30,000 movies. Users input their favorite films, and Reel Radar provides the top 5 recommendations that most closely match in terms of director and genre.",
       demoLink: "http://demo1.com",
       codeLink: "https://github.com/matteo353/Reel-Radar",
       imageUrl: rrLogo
     },
     {
         name: "Eat This!",
-        description: "Eat This!: A Streamlined Dining Locator for UMass Students - Developed as a collaborative project in our software engineering class, Eat This! is a web application designed to enhance the dining experience of UMass students. Utilizing Node and React, this application adeptly guides users to the optimal dining location based on their current location. The genesis of Eat This! was motivated by a desire to improve upon the existing UMass dining website, which had been prone to glitches. Our team focused on creating an intuitive, user-friendly interface that simplifies the process of finding the best dining options available on campus.",
+        description: "Developed as a collaborative project in our software engineering class, Eat This! is a web application designed to enhance the dining experience of UMass students. Utilizing Node and React, this application adeptly guides users to the optimal dining location based on their current location. The genesis of Eat This! was motivated by a desire to improve upon the existing UMass dining website. Our team focused on creating an intuitive, user-friendly interface that simplifies the process of finding the best dining options available on campus.",
         demoLink: "http://demo1.com",
         codeLink: "https://github.com/matteo353/EatThis",
         imageUrl: etLogo
       },
     {
         name: "Nines",
-        description: "Nines: A Tailored iOS Scoring App for Golf - Nines is an iOS application, crafted using Swift, specifically designed to assist myself and my friends in tracking scores for our preferred variation of golf, aptly named 'Nines.' The app is centered around the unique scoring rules of the game, ensuring accuracy and ease of use during gameplay. Additionally, it features a traditional golf scorecard, catering to conventional golf games as well. Nines is a bespoke solution that allows us to fully engage in our golf games, entrusting the scoring responsibilities to our iPhones. It may never have a user base larger than 3, but that's quite alright with us.",
+        description: "Nines: A Tailored iOS Scoring App for Golf - Nines is an iOS application, crafted using Swift, specifically designed to assist myself and my friends in tracking scores for our preferred variation of golf, aptly named 'Nines.' The app is centered around the unique scoring rules of the game, ensuring accuracy and ease of use during gameplay. Additionally, it features a traditional golf scorecard, catering to conventional golf games as well. Nines is a bespoke solution that allows us to fully engage in our golf games, entrusting the scoring responsibilities to our iPhones.",
         demoLink: "http://demo1.com",
         codeLink: "https://github.com/matteo353/Nines-App",
         imageUrl: ninesLogo
