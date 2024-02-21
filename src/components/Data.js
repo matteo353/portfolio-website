@@ -2,13 +2,13 @@ import ninesLogo from '../images/Nines-logo.png'
 import rrLogo from '../images/RR5.png'
 import etLogo from '../images/Eat-this.png'
 import heartLogo from '../images/heart_img.png'
-import timeSeries from '../images/time_series.jpeg'
+import timeSeries from '../images/time_series.jpg'
 
 
 export const projects = [
     {
-      name: "Time Series Forecasting on Energy Consumption Data",
-      description: "Explored the data with visualizations showing breakdowns of consumption over different time periods. Created features to increase model performance and split the data into train/test sets to prepare it for modeling. Trained and tested two leading forecasting models: XGBoost and Facebook's Prophet model to forecast energy consumption.",
+      name: "Time Series Forecasting",
+      description: "Explored a dataset of time series energy consumption data using visualizations showing breakdowns of consumption over different time periods. Created features to increase model performance and split the data into train/test sets to prepare it for modeling. Trained and tested two leading forecasting models: XGBoost and Facebook's Prophet model to forecast energy consumption.",
       demoLink: "http://demo1.com",
       codeLink: "https://www.kaggle.com/code/matteomastandrea/time-series-forecasting",
       imageUrl: timeSeries
